@@ -4,11 +4,8 @@ namespace Alura\Solid\Model;
 
 class Video
 {
-    /** @var bool */
     protected $assistido = false;
-    /** @var string */
-    protected $nome;
-    /** @var \DateInterval */
+    protected string $nome;
     protected $duracao;
 
     public function __construct(string $nome)

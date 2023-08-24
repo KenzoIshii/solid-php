@@ -4,7 +4,7 @@ namespace Alura\Solid\Model;
 
 class AluraMais extends Video
 {
-    private $categoria;
+    private string $categoria;
 
     public function __construct(string $nome, string $categoria)
     {
