@@ -6,9 +6,9 @@ use Alura\Solid\Model\Pontuavel;
 
 class CalculadorPontuacao
 {
-    public function recuperarPontuacao(Pontuavel $conteudo)
+    public function setPontuacao(Pontuavel $conteudo)
     {
 
-        return $conteudo->recuperarPontuacao();
+        return $conteudo->setPontuacao();
     }
 }

@@ -15,7 +15,7 @@ class Curso implements Pontuavel
         $this->feedbacks = [];
     }
 
-    public function receberFeedback(Feedback $feedback): void
+    public function setFeedback(Feedback $feedback): void
     {
         $this->feedbacks[] = $feedback;
     }
@@ -30,7 +30,7 @@ class Curso implements Pontuavel
     }
 
     /** @return Video[] */
-    public function recuperarVideos(): array
+    public function getVideos(): array
     {
         return $this->videos;
     }

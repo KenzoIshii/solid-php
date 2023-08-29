@@ -25,7 +25,7 @@ class Video
         return $this->duracao->i;
     }
 
-    public function recuperarUrl(): string
+    public function getUrl(): string
     {
         return 'http://videos.alura.com.br/' . http_build_query(['nome' => $this->nome]);
     }
