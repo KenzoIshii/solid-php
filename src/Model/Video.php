@@ -2,7 +2,7 @@
 
 namespace Alura\Solid\Model;
 
-class Video
+class Video implements Assistivel
 {
     protected $assistido = false;
     protected string $nome;

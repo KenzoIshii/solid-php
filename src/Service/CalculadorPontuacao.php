@@ -8,7 +8,6 @@ class CalculadorPontuacao
 {
     public function setPontuacao(Pontuavel $conteudo)
     {
-
         return $conteudo->setPontuacao();
     }
 }
